@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Proyecto Web JULIO LUNA UKUEPA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Proyecto Web Sencillo</h1>
+        <p>Una página web diseñada para demostrar los principios básicos de HTML y CSS.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#introduccion">Introducción</a></li>
+            <li><a href="#galeria">Galería de Imágenes</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <section id="introduccion">
+        <h2>Introducción</h2>
+        <p>Esta sección proporciona una breve descripción de lo que trata el proyecto y su propósito.</p>
+    </section>
+
+    <section id="galeria">
+        <h2>Galería de Imágenes</h2>
+        <div class="gallery">
+            <img src="image1.jpg" alt="Imagen 1">
+            <img src="image2.jpg" alt="Imagen 2">
+            <img src="image3.jpg" alt="Imagen 3">
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Para cualquier pregunta o comentario, no dudes en contactarnos a través de nuestro formulario de contacto.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mi Proyecto Web JULIO LUNA UKUEPA. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
